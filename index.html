@@ -1,1 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CanopyMD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #0b2613, #145c2a, #07180d);
+      color: white;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 90px;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+    }
+    .links a {
+      color: rgba(255,255,255,0.82);
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 15px;
+    }
+    .hero {
+      max-width: 720px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      color: #d6ffd8;
+      margin-bottom: 22px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    h1 {
+      font-size: clamp(44px, 8vw, 78px);
+      line-height: 0.95;
+      margin: 0 0 24px;
+      letter-spacing: -0.06em;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.82);
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 70px;
+    }
+    .card {
+      padding: 24px;
+      border-radius: 24px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.12);
+      backdrop-filter: blur(10px);
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .card p {
+      font-size: 15px;
+      margin: 0;
+    }
+    footer {
+      margin-top: 90px;
+      color: rgba(255,255,255,0.55);
+      font-size: 14px;
+    }
+    footer a {
+      color: rgba(255,255,255,0.75);
+      margin-right: 16px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="logo">CanopyMD</div>
+      <div class="links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/support.html">Support</a>
+      </div>
+    </div>
 
+    <section class="hero">
+      <div class="badge">AI-powered plant diagnosis</div>
+      <h1>Clear plant health answers, faster.</h1>
+      <p>
+        CanopyMD helps growers analyze plant images, identify likely issues,
+        and turn visual symptoms into practical next steps.
+      </p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Image-based analysis</h3>
+        <p>Upload or capture plant photos for fast visual diagnosis support.</p>
+      </div>
+      <div class="card">
+        <h3>Actionable guidance</h3>
+        <p>Get clear next steps instead of confusing, generic plant advice.</p>
+      </div>
+      <div class="card">
+        <h3>Built for growers</h3>
+        <p>Designed for real-world grow environments including tents, greenhouses, and outdoor grows.</p>
+      </div>
+    </section>
+
+    <footer>
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Use</a>
+      <a href="/support.html">Support</a>
+      <p>© 2026 CanopyMD. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
